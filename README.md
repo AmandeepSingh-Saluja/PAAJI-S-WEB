@@ -1,222 +1,141 @@
----
+# Paaji's Restaurant Website 🍲
 
-🍲 Paaji's Restaurant Website
+A modern, responsive web application built with **Next.js**, featuring optimized images, Tailwind CSS styling, and user-friendly navigation.
 
-A sleek, modern, and fully responsive web application for a restaurant, built with Next.js and styled using Tailwind CSS. Designed for performance, image optimization, and seamless user experience.
+##📌 Table of Contents
 
-
----
-
-📌 Table of Contents
-
-🌐 Demo
-
-✨ Features
-
-🛠️ Tech Stack
-
-🚀 Getting Started
-
-🧪 Development
-
-🏗️ Production Build
-
-🌍 Deployment
-
-📁 Project Structure
-
-🖼️ Image Management
-
-🎨 UI Highlights
-
-🤝 Contributing
-
-📄 License
-
-
+- [Demo](#demo)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Project Setup](#project-setup)  
+- [Development](#development)  
+- [Production Build](#production-build)  
+- [Deployment](#deployment)  
+- [Project Architecture](#folder-structure)  
+- [Image Management](#image-management)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
 ---
 
-🌐 Demo
+##🌐 Demo
 
 🔗 Live Site: https://paajis.onrender.com
 
+---
+
+##✨ Features
+
+- **Header & Navigation** with sticky behavior  
+- **Optimized static assets** served from `/public`  
+- **Responsive design** powered by Tailwind CSS  
+- **Favicon and logo integration**  
+- SEO-friendly markup and metadata
 
 ---
 
-✨ Features
+##🛠️ Tech Stack
 
-Sticky header & navigation
-
-Fully responsive UI powered by Tailwind CSS
-
-Optimized images using Next/Image
-
-Integrated favicon and logo
-
-SEO-friendly markup and metadata
-
-Fast static asset delivery from /public
-
-
+- **Framework**: Next.js (React)  
+- **Styling**: Tailwind CSS  
+- **Image Optimization**: Next/Image  
+- **Deployment**: Vercel / Render  
+- **Linting & Formatting**: ESLint, Prettier  
 
 ---
 
-🛠️ Tech Stack
+##🚀 Project Setup
 
-Technology	Description
-
-Next.js	React framework for production-ready web apps
-Tailwind CSS	Utility-first CSS framework
-Next/Image	Automatic image optimization
-Render / Vercel	Cloud deployment platforms
-ESLint + Prettier	Code linting and formatting tools
-
-
-
----
-
-🚀 Getting Started
-
-1. Clone the Repository
-
+### 1. Clone the repo
+```bash
 git clone https://github.com/your-org/paajis-website.git
 cd paajis-website
-
-2. Install Dependencies
-
+```
+### 2. Install dependencies
+```bash
 npm install
 # or
 yarn install
-
-3. Setup Environment Variables
-
-Copy the .env.example to .env.local and update it as needed:
-
+```
+### 3. Environment Variables
+If needed, copy .env.example to .env.local and configure required variables:
+```init
 NEXT_PUBLIC_API_URL=https://api.yoursite.com
-
-
----
-
-🧪 Development
-
-To run the development server:
-
+```
+##🧪 Development
+Run the dev server:
+```bash
 npm run dev
 # or
 yarn dev
+```
+Visit http://localhost:3000 to view the site.
 
-Navigate to: http://localhost:3000
+##🏗️ Production Build
+Build and start:
 
-
----
-
-🏗️ Production Build
-
-To build and run the project in production mode:
-
+```bash
 npm run build
 npm run start
 # or
 yarn build
 yarn start
+```
+##🌍 Deployment
+If deploying on Render or Vercel:
 
+- Ensure the root directory is pointed correctly.
 
----
+- Set environment variables as needed.
 
-🌍 Deployment
+- Builds run npm run build and serve with npm start.
 
-Supported Platforms: Vercel and Render
-
-Ensure correct root directory setup.
-
-Set environment variables via platform dashboard.
-
-Use the default build command: npm run build
-
-Serve with: npm start
-
-
-
----
-
-📁 Project Structure
-
+##📁 Project Architecture
 /
-├── public/                 
-│   ├── favicon.ico         
-│   ├── logo.jpeg           
-│   └── img/                
+├── public/            
+│   ├── favicon.ico     
+│   ├── logo.jpeg       
+│   └── img/            
 │       └── Honey_Garlic_Chicken.jpg
-├── src/                    
-│   ├── components/         
-│   ├── pages/              ← (or app/ for App Router)
-│   └── styles/             
-├── .eslintrc.js            
-├── next.config.js          
-├── postcss.config.js       
-├── tailwind.config.js      
-└── package.json
+├── src/
+│   ├── components/     
+│   ├── pages/          <-- or app/ for Next.js App Router
+│   └── styles/         
+├── .eslintrc.js        
+├── next.config.js      
+├── postcss.config.js   
+├── tailwind.config.js  
+└── package.json        
 
+##🖼️ Image Management
+Always store images in /public, not in src/.
 
----
-
-🖼️ Image Management
-
-Store all images inside the /public directory (not src/).
-
-Use Next/Image for optimized rendering.
-
-
-import Image from 'next/image';
-
+Example usage:
 <Image 
   src="/img/Honey_Garlic_Chicken.jpg" 
   alt="Honey Garlic Chicken" 
   width={500} 
   height={300} 
 />
+Rename files to avoid spaces (Honey_Garlic_Chicken.jpg), and reference via root path only (no /public/ prefix).
 
-🔁 Rename files to avoid spaces (e.g., Honey_Garlic_Chicken.jpg), and reference them without the /public prefix.
+## 🎨 UI Features
+✨ Animated Logo — Header logo with hover animation (pulse effect).
 
+📸 Optimized Images — Fast loading with /public assets.
 
----
+🔍 Sticky Navbar — Remains accessible while scrolling.
 
-🎨 UI Highlights
+🎯 Tailwind Styled Components — Clean, scalable, and maintainable.
 
-✨ Animated Logo — Hover-pulse effect on the brand logo
-
-📸 Optimized Images — Faster page loads with lightweight assets
-
-🔍 Sticky Navbar — Persistent top navigation
-
-🎯 Tailwind Styling — Utility classes for scalable components
-
-🖼️ Favicon Support — Clean browser tab branding
+🖼️ Favicon Integration — Appears on browser tabs.
 
 
-
----
-
-🤝 Contributing
-
-Love food and frontend? You’re welcome to contribute!
-
-1. Fork the repo
-
-
-2. Create your feature branch
-
-
-3. Make changes & commit
-
-
-4. Submit a pull request 🚀
-
-
-
+## 🤝 Contributing
+Love food & code? Fork this repo, create new features (like online ordering 👨‍🍳), and submit a pull request:
+```
 git checkout -b feature/my-new-feature
-git commit -m "Add: Awesome new feature"
+git commit -m 'Add cool feature'
 git push origin feature/my-new-feature
-
+```
 
