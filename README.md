@@ -2,7 +2,7 @@
 
 A modern, responsive web application built with **Next.js**, featuring optimized images, Tailwind CSS styling, and user-friendly navigation.
 
-##📌 Table of Contents
+## 📌 Table of Contents
 
 - [Demo](#demo)  
 - [Features](#features)  
@@ -18,13 +18,13 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 
 ---
 
-##🌐 Demo
+## 🌐 Demo
 
 🔗 Live Site: https://paajis.onrender.com
 
 ---
 
-##✨ Features
+## ✨ Features
 
 - **Header & Navigation** with sticky behavior  
 - **Optimized static assets** served from `/public`  
@@ -34,7 +34,7 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 
 ---
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **Framework**: Next.js (React)  
 - **Styling**: Tailwind CSS  
@@ -44,7 +44,7 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 
 ---
 
-##🚀 Project Setup
+## 🚀 Project Setup
 
 ### 1. Clone the repo
 ```bash
@@ -62,7 +62,7 @@ If needed, copy .env.example to .env.local and configure required variables:
 ```init
 NEXT_PUBLIC_API_URL=https://api.yoursite.com
 ```
-##🧪 Development
+## 🧪 Development
 Run the dev server:
 ```bash
 npm run dev
@@ -71,7 +71,7 @@ yarn dev
 ```
 Visit http://localhost:3000 to view the site.
 
-##🏗️ Production Build
+## 🏗️ Production Build
 Build and start:
 
 ```bash
@@ -81,7 +81,7 @@ npm run start
 yarn build
 yarn start
 ```
-##🌍 Deployment
+## 🌍 Deployment
 If deploying on Render or Vercel:
 
 - Ensure the root directory is pointed correctly.
@@ -90,7 +90,7 @@ If deploying on Render or Vercel:
 
 - Builds run npm run build and serve with npm start.
 
-##📁 Project Architecture
+## 📁 Project Architecture
 /
 ├── public/            
 │   ├── favicon.ico     
@@ -107,17 +107,17 @@ If deploying on Render or Vercel:
 ├── tailwind.config.js  
 └── package.json        
 
-##🖼️ Image Management
+## 🖼️ Image Management
 Always store images in /public, not in src/.
 
 Example usage:
 <Image 
-  src="/img/Honey_Garlic_Chicken.jpg" 
+  src="/img/Honey Garlic Chicken.jpg" 
   alt="Honey Garlic Chicken" 
   width={500} 
   height={300} 
 />
-Rename files to avoid spaces (Honey_Garlic_Chicken.jpg), and reference via root path only (no /public/ prefix).
+Rename files to avoid . (Honey Garlic Chicken.jpg), and reference via root path only (no /public/ prefix).
 
 ## 🎨 UI Features
 ✨ Animated Logo — Header logo with hover animation (pulse effect).
