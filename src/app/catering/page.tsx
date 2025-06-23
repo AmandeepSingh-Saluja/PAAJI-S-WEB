@@ -38,7 +38,7 @@ export default function CateringPage() {
             </p>
              <div className="rounded-lg overflow-hidden shadow-2xl aspect-video">
               <Image 
-                src="src\app\catering.png"
+                src="src/app/catering.png"
                 alt="Catering food display"
                 width={600}
                 height={400}

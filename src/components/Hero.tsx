@@ -10,10 +10,11 @@ const Hero = () => {
         {/* <Image src="https://placehold.co/1920x1080.png" alt="Restaurant background" layout="fill" objectFit="cover" className="opacity-20" /> */}
       </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        <h1 className="font-headline text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
-          <span className="block text-primary">Paaji&apos;s</span>
-          <span className="block text-foreground">A Symphony of Flavors</span>
-        </h1>
+      <h1 className="font-headline text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight md:leading-none">
+  <span className="block text-primary">Paaji&apos;s</span>
+  <span className="block text-foreground">A Symphony of Flavors</span>
+</h1>
+
         <p className="font-body max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10">
           Discover authentic Chinese and Biryani cuisine crafted with love and the freshest ingredients. Join us for an unforgettable dining experience.
         </p>

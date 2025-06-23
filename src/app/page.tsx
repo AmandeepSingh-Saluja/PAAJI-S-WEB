@@ -29,7 +29,7 @@ export default function HomePage() {
             </div>
             <div className="order-1 md:order-2 rounded-lg overflow-hidden shadow-2xl aspect-video transform transition-all duration-500 hover:scale-105">
                <Image 
-                src="src\app\aboutus.webp" 
+                src="src/app/aboutus.webp" 
                 alt="Interior of Paaji's Restaurant" 
                 width={600} 
                 height={400} 

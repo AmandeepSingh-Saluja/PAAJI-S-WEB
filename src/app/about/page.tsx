@@ -41,7 +41,7 @@ export default function AboutPage() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl aspect-square">
               <Image 
-                src="src\app\aboutus.webp" 
+                src="src/app/aboutus.webp" 
                 alt="Founders of Paaji's Restaurant" 
                 width={600} 
                 height={600} 
@@ -94,7 +94,7 @@ export default function AboutPage() {
             </p>
              <div className="rounded-lg overflow-hidden shadow-2xl aspect-[16/9] max-w-4xl mx-auto">
               <Image 
-                src="src\app\about_footer.jpg" 
+                src="src/app/about_footer.jpg" 
                 alt="Paaji's Restaurant Front" 
                 width={800} 
                 height={450} 

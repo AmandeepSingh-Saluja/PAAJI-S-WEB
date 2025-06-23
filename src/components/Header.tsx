@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-3 group">
             <Image
-              src="src\app\logo.png.jpeg"
+              src="src/app/logo.png.jpeg"
               alt="Paaji's Logo"
               width={32}
               height={32}
