@@ -94,7 +94,7 @@ const mockMenuItems: MenuItem[] = [
     name: 'Veg Manchurian Gravy',
     price: 80,
     description: 'Vegetable balls in a savory and tangy Manchurian gravy.',
-    imageUrl: '/img/Veg Manchurian.jpeg',
+    imageUrl: '/img/Veg Manchurian.jpg',
     imageHint: 'manchurian gravy',
     category: 'Starters',
     isVegetarian: true,

@@ -5,19 +5,17 @@ import { Button } from './ui/button';
 
 const WhatsAppIcon = () => (
   <svg
-    viewBox="0 0 24 24"
-    width="24"
-    height="24"
+    viewBox="0 0 32 32"
+    width="28"
+    height="28"
     fill="currentColor"
+    className="transition-transform duration-150 hover:scale-110"
     aria-hidden="true"
   >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52s-.67-.816-.916-.966c-.247-.149-.496-.149-.669-.149-.174 0-.371.025-.57.025-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871-.118.571-.355.94-.814 1.068-1.282.128-.468.128-.875.091-1.023-.036-.149-.184-.224-.381-.373zM12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
-    />
+    <path d="M16 2C8.27 2 2 8.27 2 16c0 2.85.75 5.54 2.06 7.9L2 30l6.23-2.05A13.9 13.9 0 0 0 16 30c7.73 0 14-6.27 14-14S23.73 2 16 2zm0 25.6c-2.36 0-4.55-.65-6.45-1.77l-.46-.27-3.7 1.21 1.2-3.61-.3-.47A11.6 11.6 0 0 1 4.4 16c0-6.42 5.18-11.6 11.6-11.6 6.42 0 11.6 5.18 11.6 11.6 0 6.42-5.18 11.6-11.6 11.6zm6.31-8.5c-.35-.17-2.04-1-2.35-1.12-.31-.11-.53-.17-.75.17-.22.35-.86 1.14-1.06 1.38-.2.23-.39.26-.72.09-.35-.17-1.47-.52-2.8-1.65-1.03-.91-1.73-2.02-1.94-2.36-.22-.35-.02-.55.15-.72.15-.15.35-.4.52-.6.17-.2.23-.35.35-.58.11-.23.06-.43-.03-.61-.09-.18-.79-1.01-1.08-1.19-.29-.17-.58-.17-.78-.17s-.43.03-.66.03c-.23 0-.6.09-.91.43-.31.35-1.2 1.2-1.2 2.92s1.23 3.39 1.4 3.62c.17.23 2.42 3.88 5.86 5.45.82.37 1.47.6 1.97.76.83.28 1.58.24 2.18-.14.67-.42 1.1-.96 1.25-1.5.15-.55.15-1.03.11-1.2-.04-.17-.22-.26-.45-.43z" />
   </svg>
 );
+
 
 
 const Footer = () => {
@@ -61,17 +59,38 @@ const Footer = () => {
           </div>
           <div>
             <h6 className="font-headline text-lg font-semibold text-foreground mb-4">Follow Us</h6>
-            <div className="flex space-x-4">
-              <a href="https://www.facebook.com/share/193iM6d4Dv/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook size={24} />
-              </a>
-              <a href="https://www.instagram.com/paajis_restaurant?igsh=MWprOHJtZHEwczhvbQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram size={24} />
-              </a>
-              <a href="https://wa.me/919834464883" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-muted-foreground hover:text-primary transition-colors">
-                <WhatsAppIcon />
-              </a>
-            </div>
+            <div>
+  <h6 className="font-headline text-lg font-semibold text-foreground mb-4">Follow Us</h6>
+  <div className="flex space-x-3">
+    <a
+      href="https://www.facebook.com/share/193iM6d4Dv/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+      className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
+    >
+      <Facebook size={20} strokeWidth={1.5} />
+    </a>
+    <a
+      href="https://www.instagram.com/paajis_restaurant?igsh=MWprOHJtZHEwczhvbQ=="
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+      className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
+    >
+      <Instagram size={20} strokeWidth={1.5} />
+    </a>
+    <a
+      href="https://wa.me/919834464883"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+      className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
+    >
+      <WhatsAppIcon />
+    </a>
+  </div>
+
             <div className="mt-6">
                 <h6 className="font-headline text-lg font-semibold text-foreground mb-2">Leave Us Your Feedback</h6>
                 <p className="text-sm text-muted-foreground mb-3">Your opinion is important to us! Let us know how we did and how we can improve our service.</p>
