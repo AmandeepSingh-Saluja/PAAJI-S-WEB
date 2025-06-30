@@ -4,18 +4,18 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 
 ## 📌 Table of Contents
 
-- [Demo](##🌐Demo)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Project Setup](#project-setup)  
-- [Development](#development)  
-- [Production Build](#production-build)  
-- [Deployment](#deployment)  
-- [Project Architecture](#folder-structure)  
-- [Image Management](#image-management)  
-- [Contributing](#contributing)  
-- [License](#license)  
-
+- [🌐 Demo](#-demo)  
+- [✨ Features](#-features)  
+- [🛠️ Tech Stack](#-tech-stack)  
+- [🚀 Project Setup](#-project-setup)  
+- [🧪 Development](#-development)  
+- [🏗️ Production Build](#-production-build)  
+- [🌍 Deployment](#-deployment)  
+- [📁 Project Architecture](#-project-architecture)  
+- [🖼️ Image Management](#-image-management)  
+- [🎨 UI Features](#-ui-features)  
+- [🤝 Contributing](#-contributing)  
+- [📜 License](#-license)
 ---
 
 ## 🌐 Demo
