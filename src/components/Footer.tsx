@@ -1,4 +1,3 @@
-
 import Link from 'next/link';
 import { Facebook, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from './ui/button';
@@ -15,8 +14,6 @@ const WhatsAppIcon = () => (
     <path d="M16 2C8.27 2 2 8.27 2 16c0 2.85.75 5.54 2.06 7.9L2 30l6.23-2.05A13.9 13.9 0 0 0 16 30c7.73 0 14-6.27 14-14S23.73 2 16 2zm0 25.6c-2.36 0-4.55-.65-6.45-1.77l-.46-.27-3.7 1.21 1.2-3.61-.3-.47A11.6 11.6 0 0 1 4.4 16c0-6.42 5.18-11.6 11.6-11.6 6.42 0 11.6 5.18 11.6 11.6 0 6.42-5.18 11.6-11.6 11.6zm6.31-8.5c-.35-.17-2.04-1-2.35-1.12-.31-.11-.53-.17-.75.17-.22.35-.86 1.14-1.06 1.38-.2.23-.39.26-.72.09-.35-.17-1.47-.52-2.8-1.65-1.03-.91-1.73-2.02-1.94-2.36-.22-.35-.02-.55.15-.72.15-.15.35-.4.52-.6.17-.2.23-.35.35-.58.11-.23.06-.43-.03-.61-.09-.18-.79-1.01-1.08-1.19-.29-.17-.58-.17-.78-.17s-.43.03-.66.03c-.23 0-.6.09-.91.43-.31.35-1.2 1.2-1.2 2.92s1.23 3.39 1.4 3.62c.17.23 2.42 3.88 5.86 5.45.82.37 1.47.6 1.97.76.83.28 1.58.24 2.18-.14.67-.42 1.1-.96 1.25-1.5.15-.55.15-1.03.11-1.2-.04-.17-.22-.26-.45-.43z" />
   </svg>
 );
-
-
 
 const Footer = () => {
   return (
@@ -59,46 +56,45 @@ const Footer = () => {
           </div>
           <div>
             <h6 className="font-headline text-lg font-semibold text-foreground mb-4">Follow Us</h6>
-            <div>
-  <h6 className="font-headline text-lg font-semibold text-foreground mb-4">Follow Us</h6>
-  <div className="flex space-x-3">
-    <a
-      href="https://www.facebook.com/share/193iM6d4Dv/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Facebook"
-      className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
-    >
-      <Facebook size={20} strokeWidth={1.5} />
-    </a>
-    <a
-      href="https://www.instagram.com/paajis_restaurant?igsh=MWprOHJtZHEwczhvbQ=="
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Instagram"
-      className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
-    >
-      <Instagram size={20} strokeWidth={1.5} />
-    </a>
-    <a
-      href="https://wa.me/919834464883"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="WhatsApp"
-      className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
-    >
-      <WhatsAppIcon />
-    </a>
-  </div>
-
+            <div className="flex space-x-3">
+              <a
+                href="https://www.facebook.com/share/193iM6d4Dv/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
+              >
+                <Facebook size={20} strokeWidth={1.5} />
+              </a>
+              <a
+                href="https://www.instagram.com/paajis_restaurant?igsh=MWprOHJtZHEwczhvbQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
+              >
+                <Instagram size={20} strokeWidth={1.5} />
+              </a>
+              <a
+                href="https://wa.me/919834464883"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="p-2 rounded-full bg-muted hover:bg-primary text-muted-foreground hover:text-background transition-colors duration-200 shadow"
+              >
+                <WhatsAppIcon />
+              </a>
+            </div>
             <div className="mt-6">
-                <h6 className="font-headline text-lg font-semibold text-foreground mb-2">Leave Us Your Feedback</h6>
-                <p className="text-sm text-muted-foreground mb-3">Your opinion is important to us! Let us know how we did and how we can improve our service.</p>
-                <Button asChild variant="outline" size="sm">
-                    <a href="mailto:paajisrestaurant@gmail.com?subject=Feedback%20for%20Paaji's%20Restaurant">
-                        Share Your Thoughts
-                    </a>
-                </Button>
+              <h6 className="font-headline text-lg font-semibold text-foreground mb-2">Leave Us Your Feedback</h6>
+              <p className="text-sm text-muted-foreground mb-3">
+                Your opinion is important to us! Let us know how we did and how we can improve our service.
+              </p>
+              <Button asChild variant="outline" size="sm">
+                <a href="mailto:paajisrestaurant@gmail.com?subject=Feedback%20for%20Paaji's%20Restaurant">
+                  Share Your Thoughts
+                </a>
+              </Button>
             </div>
           </div>
         </div>
