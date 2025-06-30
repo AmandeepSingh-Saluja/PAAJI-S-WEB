@@ -17,7 +17,7 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 - [🤝 Contributing](#-contributing)  
 ---
 
-## 🌐 Demo  .MD
+## 🌐 Demo
 
 🔗 Live Site: https://paajis.onrender.com
 
