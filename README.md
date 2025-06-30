@@ -15,10 +15,10 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 - [🖼️ Image Management](#-image-management)  
 - [🎨 UI Features](#-ui-features)  
 - [🤝 Contributing](#-contributing)  
-- [LICENSE](#-license)
+- [LICENSE.md](#-license.)
 ---
 
-## 🌐 Demo
+## 🌐 Demo  .MD
 
 🔗 Live Site: https://paajis.onrender.com
 
