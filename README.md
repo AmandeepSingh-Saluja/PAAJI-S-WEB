@@ -19,7 +19,7 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 
 ## 🌐 Demo
 
-🔗 Live Site: https://paajis.onrender.com
+🔗 Live Site: https://paajis.vercel.app/
 
 ---
 
