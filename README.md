@@ -15,7 +15,6 @@ A modern, responsive web application built with **Next.js**, featuring optimized
 - [🖼️ Image Management](#-image-management)  
 - [🎨 UI Features](#-ui-features)  
 - [🤝 Contributing](#-contributing)  
-- [LICENSE.md](#-LICENSE)
 ---
 
 ## 🌐 Demo  .MD
