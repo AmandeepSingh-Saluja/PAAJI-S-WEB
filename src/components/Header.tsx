@@ -8,15 +8,15 @@ import { Menu } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className="bg-card shadow-md sticky top-0 z-50 h-18">
+    <header className="bg-card shadow-md sticky top-0 z-50 h-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-18">
+        <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-3 group">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="Paaji's Logo"
-              width={36}
-              height={36}
+              width={34}
+              height={34}
               className="group-hover:animate-pulse rounded-full"
             />
             <span className="font-headline text-xl font-bold text-primary group-hover:text-accent transition-colors">
